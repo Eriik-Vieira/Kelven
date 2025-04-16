@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ h1 {
 
 p {
     font-weight: 400px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 29px;
     margin: 0 200px;
     color: #FFFFF0;
