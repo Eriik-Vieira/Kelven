@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+html {
+
+    scroll-snap-type: mandatory;
+}
+
+
+
+
+.pagina {
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    scroll-snap-align: start;
+}
+
+.moveis {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border: none;
+    padding: 7px 80px;
+    opacity: 0.7;
+
+}
+
+p {
+    font-weight: 400px;
+    font-size: 25px;
+    display: inline-block;
+    justify-content: center;
+    line-height: 29px;
+    margin-left: 200px;
+    margin-bottom: 700px;
+    margin-right: 100px;
+    color: #FFFFF0;
+
+}
+
+h2 {
+
+    font-size: 70px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    font-weight: 400px;
+    justify-content: center;
+    width: 515px;
+    margin-left: 760px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+
+}
+
+h3 {
+    font-size: 70px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+
+    font-weight: 400px;
+    justify-content: center;
+    width: 515px;
+    margin-left: 760px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+
+
+
+}
+
+
+.contratar {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+.orçamento {
+
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    margin-left: 850px;
+    margin-top: 300px;
+    cursor: pointer;
+    filter: brightness(70%);
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .pagina img {
+        width: 30%;
+    }
+}
